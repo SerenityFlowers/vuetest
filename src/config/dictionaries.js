@@ -6,8 +6,8 @@ const jingdianShiwenConfig = {
   id: 'jingdian-shiwen',
   name: '經典釋文',
   description: '陸德明《經典釋文》字典查詢',
-  dataFiles: ['./jingdianshiwen_part1.json', './jingdianshiwen_part2.json'],
-  variantFile: './variants.json',
+  dataFiles: ['jingdianshiwen_part1.json', 'jingdianshiwen_part2.json'],
+  variantFile: 'variants.json',
   fields: [], // 动态获取
   searchableFields: [], // 动态获取 - 所有字段都可搜索
   sourceField: '書目'
@@ -18,8 +18,8 @@ const pianYunYuPianConfig = {
   id: 'pianyun-yupian',
   name: '切韵玉篇',
   description: '切韵玉篇联合查询',
-  dataFiles: ['./pianyun_part1.json', './pianyun_part2.json'],
-  variantFile: './variants.json',
+  dataFiles: ['pianyun_part1.json', 'pianyun_part2.json'],
+  variantFile: 'variants.json',
   fields: [], // 动态获取
   searchableFields: [], // 动态获取 - 所有字段都可搜索
   sourceField: 'title'
@@ -30,8 +30,8 @@ const shuowenJieziConfig = {
   id: 'shuowen-jiezi',
   name: '說文解字',
   description: '許慎《說文解字》字典查詢',
-  dataFiles: ['./shuowen_jiezi.json'],
-  variantFile: './variants.json', // 使用统一的异体字文件
+  dataFiles: ['shuowen_jiezi.json'],
+  variantFile: 'variants.json', // 使用统一的异体字文件
   fields: [], // 动态获取
   searchableFields: [], // 动态获取 - 所有字段都可搜索
   sourceField: '書目'
@@ -42,8 +42,8 @@ const exampleNewDictionaryConfig = {
   id: 'example-dict',
   name: '示例字典',
   description: '这是一个示例字典配置',
-  dataFiles: ['./example_dict.json'],
-  variantFile: './variants.json', // 使用统一的异体字文件
+  dataFiles: ['example_dict.json'],
+  variantFile: 'variants.json', // 使用统一的异体字文件
   fields: [], // 动态获取
   searchableFields: [], // 动态获取 - 所有字段都可搜索
   sourceField: '来源'
@@ -54,7 +54,7 @@ const simpleDictionaryConfig = {
   id: 'simple-dict',
   name: '简单字典',
   description: '不需要异体字功能的字典',
-  dataFiles: ['./simple_dict.json'],
+  dataFiles: ['simple_dict.json'],
   // 不设置 variantFile，表示不使用异体字功能
   fields: [],
   searchableFields: [], // 动态获取
