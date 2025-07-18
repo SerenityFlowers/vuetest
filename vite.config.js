@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
 export default defineConfig({
-  base: '/vuetest/',  // ← 加上这行！
+  base: '/vuetest/',
   plugins: [vue()],
   resolve: {
     alias: {
