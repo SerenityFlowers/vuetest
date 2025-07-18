@@ -1,7 +1,7 @@
 // 字典配置文件 - 轻松添加新字典
 import { dictionaryManager } from '@/utils/dictionaryManager'
 
-// 经典释文字典配置（专门用于JingdianShiwen.vue）
+// 经典释文字典典配置（专门用于 JingdianShiwen.vue）
 const jingdianShiwenConfig = {
   id: 'jingdian-shiwen',
   name: '經典釋文',
@@ -13,7 +13,7 @@ const jingdianShiwenConfig = {
   sourceField: '書目'
 }
 
-// 切韵玉篇字典配置（专门用于PianYunYuPian.vue）
+// 切韵玉篇字典配置（专门用于 PianYunYuPian.vue）
 const pianYunYuPianConfig = {
   id: 'pianyun-yupian',
   name: '切韵玉篇',
@@ -25,7 +25,7 @@ const pianYunYuPianConfig = {
   sourceField: 'title'
 }
 
-// 说文解字字典配置（专门用于ShuowenJiezi.vue）
+// 说文解字字典配置（专门用于 ShuowenJiezi.vue）
 const shuowenJieziConfig = {
   id: 'shuowen-jiezi',
   name: '說文解字',
