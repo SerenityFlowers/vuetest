@@ -1,0 +1,1 @@
+import{D as i}from"./DictionaryTemplate-CzVFeRuJ.js";import{c as o,o as a,u as c,j as t}from"./index-DBe0Nix_.js";const r="jingdian-shiwen",p={__name:"JingdianShiwen",setup(e){const n=t;return(s,_)=>(a(),o(i,{"dictionary-id":r,"dictionary-config":c(n)},null,8,["dictionary-config"]))}};export{p as default};

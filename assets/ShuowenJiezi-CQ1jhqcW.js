@@ -1,0 +1,1 @@
+import{D as i}from"./DictionaryTemplate-CzVFeRuJ.js";import{c as n,o as e,u as c,s as t}from"./index-DBe0Nix_.js";const a="shuowen-jiezi",p={__name:"ShuowenJiezi",setup(r){const o=t;return(s,_)=>(e(),n(i,{"dictionary-id":a,"dictionary-config":c(o)},null,8,["dictionary-config"]))}};export{p as default};

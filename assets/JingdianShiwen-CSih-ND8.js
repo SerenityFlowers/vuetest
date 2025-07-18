@@ -1,1 +1,0 @@
-import{D as i}from"./DictionaryTemplate-DIG4Bdio.js";import{c as o,o as a,u as c,j as t}from"./index-DCWhh45B.js";const r="jingdian-shiwen",p={__name:"JingdianShiwen",setup(e){const n=t;return(s,_)=>(a(),o(i,{"dictionary-id":r,"dictionary-config":c(n)},null,8,["dictionary-config"]))}};export{p as default};
