@@ -1,0 +1,1 @@
+import{D as i}from"./DictionaryTemplate-CqV9szzI.js";import{c as a,o,u as c,p as t}from"./index-D0qlklnm.js";const r="pianyun-yupian",f={__name:"PianYunYuPian",setup(e){const n=t;return(u,p)=>(o(),a(i,{"dictionary-id":r,"dictionary-config":c(n)},null,8,["dictionary-config"]))}};export{f as default};
