@@ -139,11 +139,11 @@ async function performSearch(searchForm, progressCallback) {
   })
 
   const jsonFiles = [
-    '/xingshengkao_part1.json',
-    '/xingshengkao_part2.json', 
-    '/xingshengkao_part3.json',
-    '/xingshengkao_part4.json',
-    '/xingshengkao_part5.json'
+    './xingshengkao_part1.json',
+    './xingshengkao_part2.json', 
+    './xingshengkao_part3.json',
+    './xingshengkao_part4.json',
+    './xingshengkao_part5.json'
   ]
 
   const groups = new Map()
