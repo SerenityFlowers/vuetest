@@ -10,14 +10,7 @@
           希望能為對古典文獻感興趣的朋友提供一些便利。
         </p>
         <div class="welcome-actions">
-          <el-button 
-            type="primary"
-            size="large" 
-            :icon="Search"
-            @click="goToSearch"
-          >
-            開始查詢
-          </el-button>
+         
         </div>
       </div>
     </div>
